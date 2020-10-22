@@ -1,120 +1,387 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="index.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Rizoma Constructora</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-  <body>
+  <link rel="stylesheet" href="index.css">
 
-    <nav id="header" class="navbar navbar-expand-lg navbar-light "> <!--Cabecera-->
-        <div class="container pt-1 pb-1">
-            <a class="navbar-brand" href="#">
-                <img src="images/icono1-nombre.png" height="50" alt="Rizoma-logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto" id="navegator">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Quiénes somos</a>
-                    </li>
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Servicios</a>
-                    </li>
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+  <title>Rizoma Constructora</title>
+</head>
+
+<body>
+
+  <!--Cabecera-->
+  <nav id="header" class="navbar navbar-expand-lg navbar-light ">
+    <div class="container pt-1 pb-1">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/icono1-nombre.png" height="50" alt="Rizoma-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto" id="navegator">
+          <li class="nav-item active">
+            <!-- <a class="nav-link" href="#">Quiénes somos</a> -->
+          </li>
+          <li class="nav-item active p-1">
+            <a class="nav-link btn btn-outline-secondary" href="#Services">Servicios</a>
+          </li>
+          <li class="nav-item active p-1">
+            <a class="nav-link btn btn-outline-secondary" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Main + Carousel-->
+  <main id="main">
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/carrousell/c1.jpg" class="d-block w-100" alt="c1">
         </div>
-    </nav>
+        <div class="carousel-item">
+          <img src="images/carrousell/c2.jpg" class="d-block w-100" alt="c2">
+        </div>
+        <div class="carousel-item">
+          <img src="images/carrousell/c4.jpg" class="d-block w-100" alt="c4">
+        </div>
+        <div class="carousel-item">
+          <img src="images/carrousell/c5.jpg" class="d-block w-100" alt="c5">
+        </div>
+        <div class="carousel-item">
+          <img src="images/carrousell/c6.jpg" class="d-block w-100" alt="c6">
+        </div>
 
-    <main id="main"> <!--Main + Carousel-->
-      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/carrousell/c1.jpg" class="d-block w-100" alt="c1">
-          </div>
-          <div class="carousel-item">
-            <img src="images/carrousell/c2.jpg" class="d-block w-100" alt="c2">
-          </div>
-          <div class="carousel-item">
-            <img src="images/carrousell/c4.jpg" class="d-block w-100" alt="c4">
-          </div>
-          <div class="carousel-item">
-            <img src="images/carrousell/c5.jpg" class="d-block w-100" alt="c5">
-          </div>
-          <div class="carousel-item">
-            <img src="images/carrousell/c6.jpg" class="d-block w-100" alt="c6">
-          </div>
-
-          <div class="overlay">
-            <div class="container d-flex h-100 align-items-center justify-content-center">
-              <div class="row d-flex h-100 align-items-center justify-content-center">
-                <div class="col-md-6 offset-md-6 text-right">
-                  <h1>Quiénes somos?</h1>
-                  <p>Somos un equipo profesional de trabajo dispuestos a contribuir con la sociedad 
-                    solucionando todos sus desperfectos edilicios garantizando nuestro trabajo con la 
-                    mayor calidad posible y con una respuesta inmediata a los problemas de mayor 
-                    urgencia.
-                  </p>
-                  <p>
-                    Nos orientamos al servicio profesional de mantenimiento edilicio para poder mejorar 
-                    de manera efectiva al funcionamiento de hogar, lo cual genera una mejor calidad de 
-                    vida para nuestros clientes con el fin de expandir  nuestros servicios nacionalmente 
-                    tanto en el urbanismo como en el paisajismo.
-                  </p>
-                </div>
+        <div class="overlay">
+          <div class="container d-flex h-100 align-items-center justify-content-center">
+            <div class="row d-flex h-100 align-items-center justify-content-center">
+              <div class="col-md-6 offset-md-6 text-right">
+                <h1>Quiénes somos?</h1>
+                <p>Somos un equipo profesional de trabajo dispuestos a contribuir con la sociedad
+                  solucionando todos sus desperfectos edilicios garantizando nuestro trabajo con la
+                  mayor calidad posible y con una respuesta inmediata a los problemas de mayor
+                  urgencia.
+                </p>
+                <p>
+                  Nos orientamos al servicio profesional de mantenimiento edilicio para poder mejorar
+                  de manera efectiva al funcionamiento de hogar, lo cual genera una mejor calidad de
+                  vida para nuestros clientes con el fin de expandir nuestros servicios nacionalmente
+                  tanto en el urbanismo como en el paisajismo.
+                </p>
+                <button type="button" class="btn btn-light">Ver servicios</button>
               </div>
             </div>
           </div>
+        </div>
 
+      </div>
+    </div>
+  </main>
+
+  <!-- Servicios -->
+  <section id="Services" class="m-4">
+    <div class="container">
+      <div class="row ">
+        <div class="col text-left">
+          <h2>SERVICIOS</h2>
+          <p>Todos los servicios son realizados por técnicos profesionales y calificados para trabajar y asesorar al
+            cliente sin necesidad de recurrir a Arquitectos o Ingenieros externos a nuestro equipo de trabajo.</p>
+        </div>    
+      </div>
+
+      <div class="row mt-2 mb-2"><!--renglones para poner los iconos y la desripcion de los servicios. 4 icono por row-->
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/3127/3127288.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Plomeria</h5>
+              <p class="card-text">
+                Reparaciones<br>
+                Baños y cocinas<br>
+                Instalaciones de agua<br>
+                Instalaciones cloacales<br>
+                Instalaciones pluviales<br>
+                <br>
+                <br>
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/28/28456.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Carpinteria</h5>
+              <p class="card-text">
+                Fabrica de muebles de melanima.<br>
+                Restauraciones de muebles y abertura antiguas.<br>
+                Base de sommiers c/ cajonera y mesa de luz.<br>
+                Bajo mesada y placares<br>
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/0/593.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Gas</h5>
+              <p class="card-text">
+                Habilitaciones de edificios, galpones y domiciliarias.<br>
+                Instalaciones completas según reglamentaciones de seguridad.<br>
+                Reparaciones de artefactos de calefacción.<br>
+                <br>
+                <!-- Mesa de luz <br>
+                Bajo mesada<br>
+                Placares<br>
+              </p> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/1077/1077841.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Electricidad</h5>
+              <p class="card-text">
+                Habilitaciones de edificios, galpones y domiciliarias.<br>
+                Instalaciones completas<br>
+                Reparaciones<br>
+                Armado de tableros<br>
+                Cálculos<br>
+                División por fase<br>
+                Corrección coseno Fi<br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mt-2 mb-2">
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/3067/3067343.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Herrería</h5>
+              <p class="card-text">
+                Reparaciones<br>
+                Armado de rejas<br>
+                Muebles<br>
+                Pérgolas<br>
+                Estrucutras metálicas<br>
+                Artesanías<br>
+                <br>
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/1739/1739982.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Stand</h5>
+              <p class="card-text">
+                Diseño<br>
+                Armado a pedido y feria de exposiciones.<br>
+                Divisorios y boxes<br>
+                Cartelería<br>
+                Folletería<br>
+                <br>
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/1739/1739957.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Pintura</h5>
+              <p class="card-text">
+                Pintura de obra<br>
+                Asesoramiento<br>
+                Muros<br>
+                Aberturas<br>
+                Rejas<br>
+                Impermeabilización de cubiertas<br>
+                <br>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/1739/1739978.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Durlock</h5>
+              <p class="card-text">
+                Viviendas completas<br>
+                Remodelaciones<br>
+                Ampliaciones<br>
+                Divisorios<br>
+                Revestimientos (de muros y techos)<br>
+                Estantes<br>
+                <br>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </main>
 
-
-    <footer id="footer"> <!-- pie de pagina-->
-        <div class="container pb-4 pt-4">
-            <div class="row text-center" >
-                <div class="col-12 col-lg">
-                    <a href="#">Inicio</a>
-                </div>    
-                <div class="col-12 col-lg">
-                    <a href="#">Quiénes somos</a>
-                </div>    
-                <div class="col-12 col-lg">
-                    <a href="#">Servicios</a>
-                </div>    
-                <div class="col-12 col-lg">
-                    <a href="#">Contacto</a>
-                </div>    
+      <div class="row mt-2 mb-2">
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/1275/1275479.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Construcción</h5>
+              <p class="card-text">
+                Arquitectura y Diseño<br>
+                Remodelaciones<br>
+                Expansiones<br>
+                Viviendas<br>
+                Galpones<br>
+                Edificios en altura<br>
+                Todos los sist. constructivos<br>
+                Vía seca y vía humeda<br>
+              </p>
             </div>
+          </div>
         </div>
-    </footer>
-    
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/1233/1233183.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Electrodomésticos</h5>
+              <p class="card-text">
+                Reparación de artefactos electricos.<br>
+                Electrodomésticos pequeños<br>
+                Televisión<br>
+                Equipos de sonido<br>
+                Heladeras<br>
+                Lavarropas<br>
+                Microondas<br>
+              </p>
+            </div>
+          </div>
+        </div>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/116/116024.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Sistemas de seguridad</h5>
+              <p class="card-text">
+                Instalacion de sistemas de alarmas.<br>
+                Instalación de cámaras<br>
+                Monitoreo mediante<br>
+                Aplicaciones de teléfono movil<br>
+                <br>
+                <br>
+            </div>
+          </div>
+        </div>
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" src="https://www.flaticon.es/svg/static/icons/svg/47/47675.svg" height="100" alt="plomer">
+            <div class="card-body">
+              <h5 class="card-title">Paisajismo</h5>
+              <p class="card-text">
+                Jardines verticales<br>
+                Techos vivos<br>
+                Cuadros vivos<br>
+                Cubos vivos<br>
+                Terrazas verdes<br>
+                Muebles con vegetacion<br>
+                <br>
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Contacto-->
+  <section id="contact">
+    <div class="container">
+      <div class="row d-flex h-100 align-items-center justify-content-center">
+        <div class="col-md-9 ">
+          <h2>Contacto</h2>
+          <p>Cualquier duda o consulta no dude en contactarse</p>
+          <p>
+          +54 351 3993236 <br>
+          rizomaconstructora@gmail.com <br>
+          Bº General Bustos, Córdoba, Argentina.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <img src="images/logo+icono+leyenda.png" alt="logo-principal" height="250">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- pie de pagina-->
+  <footer id="footer">
+    <div class="container pb-4 pt-4">
+      <div class="row text-center">
+        <div class="col-12 col-lg">
+          <a href="index.html">Inicio</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#main">Quiénes somos</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#Services">Servicios</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="#contact">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
