@@ -2,6 +2,10 @@
     background-color: rgb(228, 226, 226);
 }
 
+#nav{
+    font-size: 1.1rem;
+}
+
 #main .carousel-inner img{
     max-height: 75vh;
     object-fit: cover;
